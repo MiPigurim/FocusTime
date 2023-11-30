@@ -56,7 +56,7 @@ body {
 
 #app {
   display: grid;
-  justify-content: center;
+  justify-items: center;
 }
 
 .flex {
@@ -85,7 +85,7 @@ button {
   font-size: 6.4rem;
 }
 
-.secundary {
+.secondary {
   color: var(--button-secondary);
 }
 
@@ -95,6 +95,6 @@ button {
 .music-on .ph-speaker-none,
 html:not(.running) .ph-pause-circle,
 html:not(.running) .ph-stop-circle,
-html:not(.running) .ph-speaker-kigh {
+html:not(.music-on) .ph-speaker-high {
   display: none;
 }
