@@ -4,6 +4,8 @@ import { reset } from "./actions.js";
 import { kichenTimer } from "./sounds.js";
 
 export function countdown() {
+  clearTimeout(state.countdownId);
+
   if (!state.isRunning) {
     return;
   }
@@ -23,7 +25,7 @@ export function countdown() {
   }
 
   upDateDisplay(minutes, seconds);
-  setTimeout(() => countdown(), 1000);
+  state.countdownId = setTimeout(() => countdown(), 1000);
 }
 
 export function upDateDisplay(minutes, seconds) {
