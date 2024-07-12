@@ -28,7 +28,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-FocusTime é um projeto WEB para fins de estudo de tecnologias WEB, trazendo o concenito inspirado em pomodoro de marcação de intervalos de tempo, dando a possibilidade do usuário escolher o intevalo de tempo desejado em minutos, com toque de alarme e a possibilidade de música no ambiente, ainda com modo claro e escro de tela.
+FocusTime é um projeto WEB para fins de estudo de tecnologias WEB, trazendo o conceito inspirado em pomodoro de marcação de intervalos de tempo, dando a possibilidade ao usuário de escolher o intevalo de tempo desejado em minutos, com toque de alarme e a possibilidade de música no ambiente, ainda com modo claro e escuro de tela.
 
 ## 🔖 Layout
 
